@@ -13,9 +13,10 @@ The objective in this lesson is to make a simple game using chatGPT (or some sim
 4. When we’re done, we’re going to debrief the process, using some of these questions (and others)
 
 * Did you enjoy working with a generative AI tool as a code assistant?
-
+ I think it was helpful and interesting, and it helped me learn how to do new stuff. Addionally it helped me create stuff that would be above my level if I tried to code it.
 * What was *more* difficult about using the AI tool, rather than doing it yourself? What was less difficult?
-
+I think the most diffucult part of using ai was getting it to generate what you want because some times you would ask it one thing and it would give you another thing.
 * Did the AI tool ever give you code that was wrong?  What did it do?
+Nope it always gave us code that worked and to a degree was what we wanted but it never gave it code that didn't work at all. 
 * What advice do you have about how to interact with an AI tool to get better results? 
-
+I think my advice would be to be very specific when asking an AI to do something as the more specific you are the more likely the AI is to generate what you want. 
