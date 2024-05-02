@@ -10,13 +10,32 @@
     <div class="container">
         <h1>Cookie Clicker</h1>
         <div class="cookie-container">
-            <img src="cookie.png" alt="Cookie" class="cookie" id="cookie">
             <p id="cookie-count">0</p>
+            <p id="cps">CPS: 0</p>
+            <img src="cookie.png" alt="Cookie" class="cookie" id="cookie">
         </div>
         <button id="cookie-btn">Click me!</button>
-        <div class="upgrades">
-            <button class="upgrade-btn" data-upgrade-type="click">Upgrade Click (+1) - Cost: 10 cookies</button>
-            <button class="upgrade-btn" data-upgrade-type="auto">Auto Clicker (+1/s) - Cost: 50 cookies</button>
+        <div id="upgrades">
+            <h2>Single Upgrades</h2>
+            <button class="upgrade-btn" id="click-upgrade">Click Power: 1 cookie -> 2 cookies (Cost: 10 cookies)</button>
+            <button class="upgrade-btn" id="auto-clicker">Auto Clicker (Cost: 50 cookies)</button>
+            <button class="upgrade-btn" id="grandma">Grandma: Bakes 1 cookie per second (Cost: 100 cookies)</button>
+            <button class="upgrade-btn" id="farm">Farm: Bakes 10 cookies per second (Cost: 500 cookies)</button>
+            <button class="upgrade-btn" id="super-click">Super Click: 2 cookies per click (Cost: 200 cookies)</button>
+        </div>
+        <div id="multi-upgrades">
+            <h2>Multiple Upgrades</h2>
+            <button class="multi-upgrade-btn" data-upgrade="click-power">Click Power x2 (Cost: 100 cookies)</button>
+            <button class="multi-upgrade-btn" data-upgrade="auto-clicker">Auto Clicker x2 (Cost: 250 cookies)</button>
+            <button class="multi-upgrade-btn" data-upgrade="grandma">Double Grandma Output (Cost: 500 cookies)</button>
+            <button class="multi-upgrade-btn" data-upgrade="farm">Double Farm Output (Cost: 1000 cookies)</button>
+            <button class="multi-upgrade-btn" data-upgrade="super-click">Double Super Click Power (Cost: 400 cookies)</button>
+        </div>
+        <div id="achievements">
+            <h2>Achievements</h2>
+            <ul id="achievement-list">
+                <!-- Achievements will be added dynamically using JavaScript -->
+            </ul>
         </div>
     </div>
 

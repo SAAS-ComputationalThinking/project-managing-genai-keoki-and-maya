@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    max-width: 400px;
+    max-width: 600px;
 }
 
 h1 {
@@ -62,7 +62,7 @@ h1 {
     background-color: #45a049;
 }
 
-.upgrades {
+#upgrades, #achievements {
     margin-top: 30px;
 }
 
@@ -81,4 +81,13 @@ h1 {
 
 .upgrade-btn:hover {
     background-color: #0056b3;
+}
+
+.achievement {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
